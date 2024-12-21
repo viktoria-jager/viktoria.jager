@@ -647,9 +647,9 @@ p{
     }
 
     .image-block1, .image-block2, .image-block3 {
-        height: 300px;
+        height: 300px !important; 
         background-size: cover;
-        background-position: center;
+        background-position: fixed;
     }
 
     h1 {
