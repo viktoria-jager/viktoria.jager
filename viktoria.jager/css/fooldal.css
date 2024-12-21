@@ -650,7 +650,8 @@ p{
         height: 300px !important; 
         background-size: cover;
         background-position: center;
-        width: auto !important; 
+        width: 480px !important; 
+        margin: o auto;
     }
 
     h1 {
