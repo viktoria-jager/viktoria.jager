@@ -382,6 +382,34 @@ h2, p {
 }
  }
 
+ @media (max-width: 560px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+        padding: 10px;
+        width: 100%;
+        margin: 0 auto;
+      
+    }
+
+    .grid-item {
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .grid-item img {
+        height: 300px;
+        object-fit: contain;
+       border-radius: 20px;
+    }
+
+    .overlay {
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+
  h3{
     font-size: 25px;
  }

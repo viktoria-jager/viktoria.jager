@@ -647,7 +647,7 @@ p{
     }
 
     .image-block1, .image-block2, .image-block3 {
-        height: 300px !important; 
+        height: 400px !important; 
         background-size: cover;
         background-position: center;
         width: 480px !important; 
